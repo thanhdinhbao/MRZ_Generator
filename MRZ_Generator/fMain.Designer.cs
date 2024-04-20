@@ -53,6 +53,7 @@ namespace MRZ_Generator
             // 
             // txtFName
             // 
+            this.txtFName.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtFName.Location = new System.Drawing.Point(105, 34);
             this.txtFName.Name = "txtFName";
             this.txtFName.Size = new System.Drawing.Size(185, 20);
@@ -154,7 +155,7 @@ namespace MRZ_Generator
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(100, 347);
+            this.txtID.Location = new System.Drawing.Point(100, 325);
             this.txtID.MaxLength = 10;
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(190, 20);
@@ -172,16 +173,21 @@ namespace MRZ_Generator
             // 
             // txtResult
             // 
-            this.txtResult.Location = new System.Drawing.Point(27, 389);
+            this.txtResult.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.txtResult.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtResult.Location = new System.Drawing.Point(27, 370);
             this.txtResult.Multiline = true;
             this.txtResult.Name = "txtResult";
             this.txtResult.ReadOnly = true;
-            this.txtResult.Size = new System.Drawing.Size(341, 144);
-            this.txtResult.TabIndex = 1;
+            this.txtResult.Size = new System.Drawing.Size(350, 163);
+            this.txtResult.TabIndex = 11;
             // 
             // btnCopy
             // 
-            this.btnCopy.Location = new System.Drawing.Point(383, 462);
+            this.btnCopy.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnCopy.Location = new System.Drawing.Point(383, 430);
             this.btnCopy.Name = "btnCopy";
             this.btnCopy.Size = new System.Drawing.Size(75, 34);
             this.btnCopy.TabIndex = 10;
@@ -219,7 +225,7 @@ namespace MRZ_Generator
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(37, 240);
+            this.label4.Location = new System.Drawing.Point(37, 218);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(57, 13);
             this.label4.TabIndex = 20;
@@ -228,7 +234,7 @@ namespace MRZ_Generator
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 291);
+            this.label5.Location = new System.Drawing.Point(20, 269);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(74, 13);
             this.label5.TabIndex = 21;
@@ -237,7 +243,7 @@ namespace MRZ_Generator
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(66, 350);
+            this.label6.Location = new System.Drawing.Point(66, 328);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(21, 13);
             this.label6.TabIndex = 22;
@@ -246,7 +252,7 @@ namespace MRZ_Generator
             // dtDOB
             // 
             this.dtDOB.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtDOB.Location = new System.Drawing.Point(105, 240);
+            this.dtDOB.Location = new System.Drawing.Point(105, 218);
             this.dtDOB.MaxDate = new System.DateTime(2100, 12, 31, 0, 0, 0, 0);
             this.dtDOB.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.dtDOB.Name = "dtDOB";
@@ -256,7 +262,7 @@ namespace MRZ_Generator
             // dtNgayCap
             // 
             this.dtNgayCap.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtNgayCap.Location = new System.Drawing.Point(105, 291);
+            this.dtNgayCap.Location = new System.Drawing.Point(105, 269);
             this.dtNgayCap.MaxDate = new System.DateTime(2100, 12, 31, 0, 0, 0, 0);
             this.dtNgayCap.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.dtNgayCap.Name = "dtNgayCap";
@@ -284,6 +290,7 @@ namespace MRZ_Generator
             // 
             // txtLName
             // 
+            this.txtLName.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtLName.Location = new System.Drawing.Point(105, 76);
             this.txtLName.Name = "txtLName";
             this.txtLName.Size = new System.Drawing.Size(185, 20);
